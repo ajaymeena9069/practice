@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container {
+
+}
+.container h1 {
+    background-color: cyan;
+    padding: 2rem 1rem;
+    border-radius: 40px;
+    text-align: center;
+}

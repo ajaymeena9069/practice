@@ -1,0 +1,459 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.main-img {
+
+    background-image: url("https://websitedemos.net/web-developer-04/wp-content/uploads/sites/1481/2023/07/hero-bg.jpg");
+    height: 940px;
+
+    width: 100vw;
+
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.layer {
+    background-color: rgba(12, 6, 49, 0.8);
+    height: inherit;
+
+    background-size: cover;
+
+}
+
+.logo1 {
+    height: 40px;
+    width: 15%
+}
+
+.list ul li {
+    color: rgb(195,192,216);
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list ul li:hover{
+    transition: 0.8s;
+    color: white;
+}
+.button {
+    height: 52px;
+    width: 161px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+    transition: ease 0.5s;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+
+}
+
+.main-heading {
+
+
+    height: 96px;
+    width: 70%;
+    margin-top: 100px;
+
+}
+
+.main-heading h1 {
+    font-size: 60px;
+}
+
+.main-heading div {
+    font-size: 16px;
+}
+
+.sec-button1 {
+    background-color: rgb(135, 80, 252);
+}
+
+.sec-4 {
+    margin-top: 90px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.sec-5 {
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 866px) {
+    .header {
+        display: inline-block;
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .lets-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .sec-3 {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
+
+    .list {
+        margin-top: 50px;
+    }
+
+    .list ul li {
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .button {
+        height: 65px;
+        width: 100%;
+        background-color: transparent;
+        border: 1.5px solid white;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+
+    .main-img {
+        background-image: url("https://websitedemos.net/web-developer-04/wp-content/uploads/sites/1481/2023/07/hero-bg.jpg");
+        height: 1300px;
+        width: 100vw;
+        background-size: cover;
+    }
+
+    .main-heading h1 {
+        font-size: 40px;
+    }
+
+    .main-heading div {
+        font-size: 16px;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.second-section {
+    background-color: rgb(11, 4, 58);
+    width: 100vw;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.sec-2-hero-img {
+    border: 1px solid rgb(95, 84, 167);
+    margin-top: 90px;
+    margin-left: 50px;
+    height: 60%;
+    width:31.67%;
+    background-color: rgb(27,20,72);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-2-hero-img img {
+    width: 90%;
+   margin-left: 50px;
+margin-bottom: 20px;
+}
+
+.second-item {
+    height: 461px;
+   
+    width: 80%;
+    margin-top: 180px;
+    
+    margin-left: 15%;
+    text-wrap: wrap;
+}
+
+.p1 {
+    font-size: 32px;
+
+}
+
+
+.outside-div {
+    width: 75vw;
+    height: 100vh;
+}
+
+.third-section {
+    color: white;
+    background-color: rgb(11, 4, 58);
+
+    width: 100vw;
+    height: 4600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-rooler {
+
+    width: 90%;
+    height: 100px;
+
+    border-top: 2px solid rgb(255, 255, 255);
+
+
+}
+
+.flex-box-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    width: 100vw;
+}
+
+.frist-i {
+    width: 40%;
+    height: 50%;
+}
+
+.second-i {
+    width: 56%;
+    height: 90%;
+  
+
+}
+
+.second-i img{
+    width: 100%;
+    height: 100%;
+} 
+/* 458w 327h */
+
+.flex-box-3 {
+    width: 85%;
+    height: 604px;
+    border: 1px solid rgba(255, 255, 255, 0.842);
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex-box-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box-4>div {
+
+    border: 1px solid white;
+}
+
+#center-text {
+    margin-left: 20px;
+}
+
+.talk-button {
+    color: white;
+    width: 346px;
+    height: 76px;
+    background-color: rgb(135, 80, 252);
+
+}
+
+#btn-1 :hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.8s;
+
+}
+
+.flex-box-5 {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+#font-size-1 {
+    font-size: 70px;
+
+}
+
+.flex-box-5>div p {
+
+    display: inline;
+}
+
+.flex-box-5>div {
+    height: 90px;
+    align-content: space-around;
+    margin-left: 50px;
+
+
+}
+/* 
+.fourth-section {
+    background-color: rgb(11, 4, 58);
+    color: white;
+    width: 100vw;
+    height: 850px;
+}
+
+.fourth-section-heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+
+.wit {
+    width: 500px;
+}
+
+.Inline-block-12 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iiiin {
+    display: inline-block;
+
+
+}
+
+.outer-cover {
+    background-color: rgb(27,20,72);
+    width: 580px;
+    height: 261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-box-1 {
+margin-bottom: 40px;
+}
+
+
+.footer-section {
+    background-image: url('https://websitedemos.net/web-developer-04/wp-content/uploads/sites/1481/2023/07/footer-bg.jpg');
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+}
+
+.layer-2 {
+    background-color: rgba(13, 7, 51, 0.7);
+    height: inherit;
+    background-size: cover;
+    color: white;
+}
+
+.footer-paragraph-1 {
+
+    display: inline-block;
+
+}
+
+.kkkkkkk {
+    width: 1000px;
+}
+
+.social-icons {
+    font-size: 30px;
+}
+
+.footer-paragraph {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.last-part {
+    color: white;
+    background-color: rgb(11, 4, 58);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.scroll-bar {
+    color: white;
+    text-align: center;
+    align-content: center;
+    width: 31px;
+    height: 31px;
+    background-color: rgb(135, 80, 252);
+    position: fixed;
+
+    bottom: 40px;
+    right: 40px;
+}
+
+.counting{
+    color: rgb(99, 99, 175);
+    font-weight: bold;
+}
+
+.color-paragraph-1{
+    color: rgb(195,192,216);
+} */

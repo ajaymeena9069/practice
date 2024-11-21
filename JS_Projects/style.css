@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+}
+
+.box{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+i{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    z-index: 2;
+    transform: translate(-100% , -50%);
+    opacity: 65%;
+}
